@@ -1,0 +1,214 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-size: 28px;
+}
+.header{
+    background-color: crimson;
+    height: 84vh;
+    
+}
+
+#navbar{
+    overflow: hidden;
+    background: dodgerblue;
+}
+#navbar a{
+    padding: 30px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    float: left;
+    color: crimson;
+    transition: all 0.8s;
+}
+#navbar a:hover{
+    background: white;
+    color: dodgerblue;
+    border-radius: 100%;
+}
+.content{
+    background: lightgrey;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height: 100%;
+}
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+span {
+    position: absolute;
+    padding-top:15%;
+    padding-left: 20%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+.img-head{
+    background-image: url('1.jpg');
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.img-head h1{
+    padding-left: 35%;
+    padding-top: 10%;
+    font-size: 80px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: white;
+}
+.img-head1 h1{
+    padding-left: 35%;
+    padding-top: 10%;
+    font-size: 80px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: white;
+}
+.img-head2 h1{
+    padding-left: 35%;
+    padding-top: 10%;
+    font-size: 80px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: white;
+}
+.img-head3 h1{
+    padding-left: 35%;
+    padding-top: 10%;
+    font-size: 80px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: white;
+}
+
+.heading h2{
+    background-color: white;
+    padding: 100px;
+    margin:  90px 50px;
+    color:gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 5px grey;
+    
+}
+.img-head1{
+    background-image: url('2.jpg');
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.img-head2{
+    background-image: url('3.jpeg');
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.img-head3{
+    background-image: url('4.jpeg');
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.gallery{
+    background-color: white;
+    padding: 100px;
+    margin:  90px 50px;
+    color:gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 5px grey;
+}
+.gallery img{
+    padding-left: 7px;
+    padding-bottom: 100px;
+    transition: all 0.6s;
+    
+    
+    }
+    .gallery img:hover{
+    padding-left: 7px;
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+.form-bg{
+    background-color: white;
+    margin:  90px 50px;
+    color:gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 5px grey;
+}
+form h1{
+    padding: 10px;
+}
+form input{
+    border: none;
+outline: none;
+border-bottom: 2px solid grey;
+margin: 10px;
+transition: all 0.7s;
+width: 80%;
+}
+form input:hover{
+  
+border-bottom: 2px solid red;
+}
+form textarea{
+    height: 100px;
+    width: 80%;
+    color: grey;
+    border: none;
+    outline: none;
+border-bottom: 2px solid grey;
+transition: all 0.7s;
+
+    
+
+}
+form textarea:hover{
+border-bottom: 2px solid red;
+    
+}
+form button{
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 30px;
+    border: none;
+    background: white;
+    box-shadow: 7px 1px 17px 2px #00000054;
+    color: gray;
+transition: all 0.7s;
+    
+    
+}
+form button:hover{
+    box-shadow: none;
+}
+.main-footer{
+    background: black;
+    color: white;
+    height: 200px;
+    
+}
+.main-footer h1{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+    
+   

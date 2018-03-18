@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+  <div class="header">
+    <span>Company Name</span>
+    <img name="slide" height="100%" width="100%">
+
+  </div>
+  <div id="navbar">
+    <a href="index.html">HOME</a>
+    <a href="gallery.html">GALLERY</a>
+    <a href="about.html">ABOUT</a>
+    <a href="contact.html">CONTACT</a>
+    </div>
+   <div class="content" >
+    <div class="img-head">
+      <h1>Contact Us</h1>
+    </div>
+    <div class="form-bg">
+        <center>
+        <form>
+            <h1>SEND YOUR QUERY</h1>
+            <input type="text" placeholder="NAME"><br><br>
+            <input type="email" placeholder="EMAI-ID"><br><br>
+            <input type="number" placeholder="MOBILE-N0."><br><br>
+            <textarea>MESSAGE.....</textarea><br><br>
+            <button type="submit">SEND</button>&nbsp; &nbsp;
+            <button type="rest">REST</button>
+               
+            
+        </center>      
+        </form>
+          </div>
+
+    </div>
+    
+      
+    </div>      
+           
+    </div>
+    <div class="main-footer">
+            <center>
+            <h1>COMPANY LOGO</h1>
+            <h1>COMPANY NAME</h1>
+            <h1>ALL COPYRIGHTS  &copy; 2018 by WWW.WENSITE.COM</h1>
+          </center>
+          </div>
+    <script>
+        
+        window.onscroll =function(){myFunction()};
+        var navbar =document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        function myFunction(){
+          if(window.pageYOffset >= sticky){
+            navbar.classList.add("sticky");
+
+
+          }
+          else{
+            navbar.classList.remove("sticky");
+
+          }
+        }
+        var i=0;
+        var images=[];
+        var time=2000;
+        images[0]='1.jpg';
+        images[1]='2.jpg';
+        images[2]='3.jpeg';
+        images[3]='4.jpeg';
+        function changeImage(){
+          document.slide.src=images[i];
+          if(i <images.length -1){
+            i++;
+          }
+          else{
+            i=0
+          }
+          setTimeout('changeImage()',time);
+        }
+        window.onload=changeImage;
+       
+        
+        
+        </script>
+
+</body>
+</html>
